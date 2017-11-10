@@ -42,7 +42,7 @@ public class carsonrupp_picture_lab
          for (Pixel spot : pixel_arr)
          
             {
-
+                //If the grayscale is below a certain threshold, it changes the RGB accrdingly
                 val = spot.getRed();
                 val2 = spot.getGreen();
                 val3 = spot.getBlue();
